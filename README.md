@@ -1,23 +1,19 @@
----
-title: Cloud Messaging
-author: 哈哥 Jacky
-author_title: 哈哥 Jacky @ Jubo
-tags: [devops, firebase, cloud-messaging]
----
+# Firebase Cloud Messaging
 
 一個 Google 提供的 **免費** Pub/Sub 服務，可支援推播訊息至 iOS、Android、Web、Unity、Flutter
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [既然是免費，使用上有哪些限制?](#既然是免費使用上有哪些限制)
-- [建立 Firebase 專案](#建立-firebase-專案)
-- [產生推播公鑰 (Client 使用)](#產生推播公鑰-client-使用)
-- [產生帳戶私鑰 (Server 使用)](#產生帳戶私鑰-server-使用)
-- [簡單測試小專案 (Golang -> Web)](#簡單測試小專案-golang---web)
-- [DEMO](#demo)
-- [關於 Registration Token](#關於-registration-token)
-- [參考資料](#參考資料)
+- [Firebase Cloud Messaging](#firebase-cloud-messaging)
+  - [Table of Contents](#table-of-contents)
+  - [既然是免費，使用上有哪些限制?](#既然是免費使用上有哪些限制)
+  - [建立 Firebase 專案](#建立-firebase-專案)
+  - [產生推播公鑰 (Client 使用)](#產生推播公鑰-client-使用)
+  - [產生帳戶私鑰 (Server 使用)](#產生帳戶私鑰-server-使用)
+  - [簡單測試小專案 (Golang -> Web)](#簡單測試小專案-golang---web)
+  - [DEMO](#demo)
+  - [關於 Registration Token](#關於-registration-token)
+  - [參考資料](#參考資料)
 
 ## 既然是免費，使用上有哪些限制?
 
